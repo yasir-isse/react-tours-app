@@ -1,10 +1,15 @@
 import React from "react";
+import Tour from "./Tour";
 
-function Tours() {
+function Tours({ tours, handleRemove }) {
   return (
-    <div>
-      <h1>Tours</h1>
-    </div>
+    <article className="single-tour">
+      <h2 className="title">Our Tours</h2>
+      <div className="undeline"></div>
+      {tours.map((tour) => {
+        return <Tour key={tour.id} {...tour} handleRemove={handleRemove} />;
+      })}
+    </article>
   );
 }
 
