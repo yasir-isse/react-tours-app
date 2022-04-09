@@ -55,10 +55,12 @@ function App() {
   if (tours.length === 0) {
     return (
       <main>
-        <h2 className="title">No Tours Left</h2>
-        <button className="btn" onClick={() => fetchData(url)}>
-          Refresh
-        </button>
+        <div className="title">
+          <h2>No Tours Left</h2>
+          <button className="btn" onClick={() => fetchData(url)}>
+            Refresh
+          </button>
+        </div>
       </main>
     );
   }
