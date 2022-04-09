@@ -4,7 +4,7 @@ function Tour({ id, image, name, price, info, handleRemove }) {
   const [readMore, setReadMore] = useState(false);
 
   return (
-    <section>
+    <article className="single-tour">
       <img src={image} alt={name} />
       <footer>
         <div className="tour-info">
@@ -21,7 +21,7 @@ function Tour({ id, image, name, price, info, handleRemove }) {
           Not Interested
         </button>
       </footer>
-    </section>
+    </article>
   );
 }
 
