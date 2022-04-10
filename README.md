@@ -24,6 +24,7 @@ Here is a screenshot of the app.
 
 - Created a card component that consumes data and displays it as a package.
 - Hands-on experience with:
+   - Fetching & consuming data from an external API
    - Conditional Rendiring
    - React { UseEffect, useState } Hooks
 
