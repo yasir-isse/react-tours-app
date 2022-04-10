@@ -4,7 +4,9 @@
 [![npm version](https://badge.fury.io/js/react.svg)](https://badge.fury.io/js/react)
 [![GitHub version](https://badge.fury.io/gh/yasir-isse%2Freact-tours-app.svg)](https://badge.fury.io/gh/yasir-isse%2Freact-tours-app)
 
-A React app that displays tour packages including price and information about the destination. Here is a screenshot of the app. 
+A React app that displays tour packages including price and information about the destination.
+
+Here is a screenshot of the app. 
 
 ![image](https://user-images.githubusercontent.com/77013296/162552000-3ca18c81-f1f2-4cb3-adf5-24ae93c6d50c.png)
 
@@ -13,9 +15,18 @@ A React app that displays tour packages including price and information about th
 
 # Table of contents
 
+- [Project Outcomes](#outcomes)
 - [Usage](#usage)
 - [Installation](#installation)
 - [Contributing](#contributing)
+
+# Outcomes
+
+- Created a card component that consumes data and displays it as a package.
+- Hands-on experience with:
+   - Conditional Rendiring
+   - React { UseEffect, useState } Hooks
+
 
 # Usage
 
